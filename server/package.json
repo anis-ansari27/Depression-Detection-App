@@ -1,0 +1,26 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "client-install": "npm install --prefix client",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"cd.. && cd client && npm run start\" \"npm run start\" \"cd controllers && python pythonClassifier.py\" \"cd controllers && python audioFlask.py\"",
+    "web": "concurrently \"cd.. && cd client && npm run start\" \"npm run start\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.0",
+    "request-promise": "^4.2.6"
+  }
+}

@@ -1,0 +1,98 @@
+.App {
+  background-color: #fffdfd;
+}
+.recommendationTile {
+  margin: 5px;
+  border: 1px solid #ccc;
+  background-color: #fffdfd;
+  width: 500px;
+}
+.inputForm{
+  border: 1px solid #ccc;
+  background-color: #fffdfd;
+  width: 1050px;
+  margin: 10px;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.Recommendation {
+  border: 1px solid #ccc;
+  background-color: #fffdfd;
+  width: 1050px;
+  margin: 10px;
+  padding: 10px;
+}
+.RecommendationList {
+  display: flex;
+  flex-wrap: wrap;
+}
+.Posts{
+  border: 1px solid #ccc;
+  background-color: #fffdfd;
+  width: 1050px;
+  margin: 10px;
+  padding: 10px;
+}
+.PostList{
+  display: flex;
+  flex-wrap: wrap;
+}
+.postTile{
+  margin: 5px;
+  border: 1px solid #ccc;
+  background-color: #fffdfd;
+  width: 500px;
+}
+.AppPosts {
+  margin-left: 70px;
+  margin-right: 70px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.post {
+  align-items: center;
+  width: 80%;
+  margin: 10px;
+}
+.AppBody {
+  background-color: #fffdfd;
+  text-align: center;
+  margin-left: 70px;
+  box-shadow: 0 0 10px 1px #888888;
+  margin-right: 70px;
+  min-height: 100vh;
+  align-items: center;
+}
+
+.Navbar {
+  -webkit-box-shadow: 0 8px 6px -6px #999;
+  -moz-box-shadow: 0 8px 6px -6px #999;
+  box-shadow: 0 8px 6px -6px #999;
+  background-color: beige;
+  display: flex;
+  flex-direction: row;
+}
+
+
+.example-enter {
+  opacity: 0.01;
+}
+
+.example-enter.example-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+.example-leave {
+  opacity: 1;
+}
+.example-leave.example-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
